@@ -16,6 +16,7 @@
 		1912F4261E9CC2AF005EDB46 /* FMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1912F4251E9CC2AF005EDB46 /* FMDBTests.m */; };
 		19793F8B1E9CC51B00E3BDDE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19793F8A1E9CC51B00E3BDDE /* libsqlite3.0.tbd */; };
 		19793F8F1E9CDC5D00E3BDDE /* LXSFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */; };
+		19E397DA1E9E3343002529E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E397D91E9E3343002529E5 /* Person.m */; };
 		9D24F470BA61A7EA8E6D49FF /* libPods-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99831A6E582BEF9B30F900 /* libPods-FMDB.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		19793F8A1E9CC51B00E3BDDE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		19793F8D1E9CDC5D00E3BDDE /* LXSFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSFMDB.h; sourceTree = "<group>"; };
 		19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSFMDB.m; sourceTree = "<group>"; };
+		19E397D81E9E3343002529E5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		19E397D91E9E3343002529E5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		39A0EF261B9B2206EE944DF0 /* Pods-FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB/Pods-FMDB.debug.xcconfig"; sourceTree = "<group>"; };
 		AC99831A6E582BEF9B30F900 /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DCCC50BFA6EB690AE2251C /* Pods-FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB/Pods-FMDB.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +97,7 @@
 		1912F40A1E9CC2AF005EDB46 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				19E397D71E9E333A002529E5 /* Model */,
 				19793F8C1E9CDC3C00E3BDDE /* MyselfFMDB */,
 				1912F40E1E9CC2AF005EDB46 /* AppDelegate.h */,
 				1912F40F1E9CC2AF005EDB46 /* AppDelegate.m */,
@@ -132,6 +136,15 @@
 				19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */,
 			);
 			path = MyselfFMDB;
+			sourceTree = "<group>";
+		};
+		19E397D71E9E333A002529E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19E397D81E9E3343002529E5 /* Person.h */,
+				19E397D91E9E3343002529E5 /* Person.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C87ABFDE6673CCD3E0854231 /* Pods */ = {
@@ -308,6 +321,7 @@
 			files = (
 				19793F8F1E9CDC5D00E3BDDE /* LXSFMDB.m in Sources */,
 				1912F4131E9CC2AF005EDB46 /* ViewController.m in Sources */,
+				19E397DA1E9E3343002529E5 /* Person.m in Sources */,
 				1912F4101E9CC2AF005EDB46 /* AppDelegate.m in Sources */,
 				1912F40D1E9CC2AF005EDB46 /* main.m in Sources */,
 			);
