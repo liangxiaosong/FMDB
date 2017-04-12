@@ -17,6 +17,8 @@
 		19793F8B1E9CC51B00E3BDDE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19793F8A1E9CC51B00E3BDDE /* libsqlite3.0.tbd */; };
 		19793F8F1E9CDC5D00E3BDDE /* LXSFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */; };
 		19E397DA1E9E3343002529E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E397D91E9E3343002529E5 /* Person.m */; };
+		19E397DC1E9E3558002529E5 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19E397DB1E9E3558002529E5 /* bg.jpg */; };
+		19E397E01E9E3738002529E5 /* ProductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E397DF1E9E3738002529E5 /* ProductionView.m */; };
 		9D24F470BA61A7EA8E6D49FF /* libPods-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99831A6E582BEF9B30F900 /* libPods-FMDB.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,9 @@
 		19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSFMDB.m; sourceTree = "<group>"; };
 		19E397D81E9E3343002529E5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		19E397D91E9E3343002529E5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		19E397DB1E9E3558002529E5 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		19E397DE1E9E3738002529E5 /* ProductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductionView.h; sourceTree = "<group>"; };
+		19E397DF1E9E3738002529E5 /* ProductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductionView.m; sourceTree = "<group>"; };
 		39A0EF261B9B2206EE944DF0 /* Pods-FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB/Pods-FMDB.debug.xcconfig"; sourceTree = "<group>"; };
 		AC99831A6E582BEF9B30F900 /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DCCC50BFA6EB690AE2251C /* Pods-FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB/Pods-FMDB.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +102,7 @@
 		1912F40A1E9CC2AF005EDB46 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				19E397DD1E9E3728002529E5 /* View */,
 				19E397D71E9E333A002529E5 /* Model */,
 				19793F8C1E9CDC3C00E3BDDE /* MyselfFMDB */,
 				1912F40E1E9CC2AF005EDB46 /* AppDelegate.h */,
@@ -105,6 +111,7 @@
 				1912F4121E9CC2AF005EDB46 /* ViewController.m */,
 				1912F4141E9CC2AF005EDB46 /* Main.storyboard */,
 				1912F4171E9CC2AF005EDB46 /* Assets.xcassets */,
+				19E397DB1E9E3558002529E5 /* bg.jpg */,
 				1912F4191E9CC2AF005EDB46 /* LaunchScreen.storyboard */,
 				1912F41C1E9CC2AF005EDB46 /* Info.plist */,
 				1912F40B1E9CC2AF005EDB46 /* Supporting Files */,
@@ -145,6 +152,15 @@
 				19E397D91E9E3343002529E5 /* Person.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		19E397DD1E9E3728002529E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19E397DE1E9E3738002529E5 /* ProductionView.h */,
+				19E397DF1E9E3738002529E5 /* ProductionView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C87ABFDE6673CCD3E0854231 /* Pods */ = {
@@ -253,6 +269,7 @@
 			files = (
 				1912F41B1E9CC2AF005EDB46 /* LaunchScreen.storyboard in Resources */,
 				1912F4181E9CC2AF005EDB46 /* Assets.xcassets in Resources */,
+				19E397DC1E9E3558002529E5 /* bg.jpg in Resources */,
 				1912F4161E9CC2AF005EDB46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +341,7 @@
 				19E397DA1E9E3343002529E5 /* Person.m in Sources */,
 				1912F4101E9CC2AF005EDB46 /* AppDelegate.m in Sources */,
 				1912F40D1E9CC2AF005EDB46 /* main.m in Sources */,
+				19E397E01E9E3738002529E5 /* ProductionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
