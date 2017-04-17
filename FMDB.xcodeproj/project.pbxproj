@@ -14,6 +14,7 @@
 		1912F4181E9CC2AF005EDB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1912F4171E9CC2AF005EDB46 /* Assets.xcassets */; };
 		1912F41B1E9CC2AF005EDB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1912F4191E9CC2AF005EDB46 /* LaunchScreen.storyboard */; };
 		1912F4261E9CC2AF005EDB46 /* FMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1912F4251E9CC2AF005EDB46 /* FMDBTests.m */; };
+		197859971EA46995006DB7B5 /* PersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 197859961EA46995006DB7B5 /* PersonTableViewCell.m */; };
 		19793F8B1E9CC51B00E3BDDE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19793F8A1E9CC51B00E3BDDE /* libsqlite3.0.tbd */; };
 		19793F8F1E9CDC5D00E3BDDE /* LXSFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */; };
 		19E397DA1E9E3343002529E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E397D91E9E3343002529E5 /* Person.m */; };
@@ -46,6 +47,8 @@
 		1912F4211E9CC2AF005EDB46 /* FMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1912F4251E9CC2AF005EDB46 /* FMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBTests.m; sourceTree = "<group>"; };
 		1912F4271E9CC2AF005EDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197859951EA46995006DB7B5 /* PersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTableViewCell.h; sourceTree = "<group>"; };
+		197859961EA46995006DB7B5 /* PersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewCell.m; sourceTree = "<group>"; };
 		19793F8A1E9CC51B00E3BDDE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		19793F8D1E9CDC5D00E3BDDE /* LXSFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSFMDB.h; sourceTree = "<group>"; };
 		19793F8E1E9CDC5D00E3BDDE /* LXSFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSFMDB.m; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 			children = (
 				19E397DE1E9E3738002529E5 /* ProductionView.h */,
 				19E397DF1E9E3738002529E5 /* ProductionView.m */,
+				197859951EA46995006DB7B5 /* PersonTableViewCell.h */,
+				197859961EA46995006DB7B5 /* PersonTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 				19793F8F1E9CDC5D00E3BDDE /* LXSFMDB.m in Sources */,
 				1912F4131E9CC2AF005EDB46 /* ViewController.m in Sources */,
 				19E397DA1E9E3343002529E5 /* Person.m in Sources */,
+				197859971EA46995006DB7B5 /* PersonTableViewCell.m in Sources */,
 				1912F4101E9CC2AF005EDB46 /* AppDelegate.m in Sources */,
 				1912F40D1E9CC2AF005EDB46 /* main.m in Sources */,
 				19E397E01E9E3738002529E5 /* ProductionView.m in Sources */,
